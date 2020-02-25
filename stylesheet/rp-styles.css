@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .logo {
+      font-family: organo;
+  }
+
+  .hdr-style {
+      color: brown;
+      font-family: oregano;
+  }
+
+  .page {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  /*Top Navbar*/
+
+  .menu-container {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    background-color: #F5CF8E;  /* Blue */
+    padding: 20px 0;
+    width: 100%;
+  }
+
+
+.section {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } 
+
+  .menu {
+    background-color: #F5CF8E;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+
+  .links {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+/*Header*/
+
+  .header {
+    background-color: #F5CF8E;
+    flex-direction: column;
+    
+  }
+
+  .title {
+      color: brown;
+      margin: 5px;
+
+  }
+
+  .sub-title {
+      color: brown;
+      margin-top: 3em;  
+  }
+
+  /* Content */
+
+  .content {
+    background-color: #EAEDF0;
+    justify-content: flex-start;
+    flex-direction: column;
+    height: 1670px;
+  }
+
+  .ingredients {
+      width: 100%;
+  }
+
+  .preparation {
+      width: 100%;
+  }
+  
+  
+
+  /* Nutritional Info */
+
+  .nutritional-info {
+    background-color: #F5CF8E;
+    flex-wrap: wrap;
+    width: 100%;
+    
+  }
+  
+
+  /* images */ 
+
+  
+
+  .feature-container {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+  }
+
+  .feature-1 {
+    background-color: #F5CF8E;
+  }
+  
+  .feature-2 {
+    background-color: #F5CF8E;
+  }
+  
+  .feature-3 {
+    background-color: #F5CF8E;
+
+  } 
+
+  
+
+   /* Mobile Styles */
+
+   
+
+
+  /* Tablet Styles */
+
+  @media only screen and (min-width: 401px) and (max-width: 960px) {
+    
+    
+
+        .content {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            height:810px;
+            flex-wrap: wrap;
+            padding: 5px 5px;
+            
+        }
+
+        .ingredients {
+            
+            width: 50%;
+            flex: 1;
+            
+        }
+
+        .preparation {
+            display: flex;
+            flex-direction: column;
+            flex: 1.5;
+            
+        }
+
+
+
+        .feature-container {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+        }
+
+        .feature-1,
+        .feature-2,
+        .feature-3 {
+            width: 33.3%;
+        }
+    }
+
+/* Desktop Styles */
+
+@media only screen and (min-width: 961px) {
+    
+
+    .page {
+        width: 100%;
+        margin: 0 auto;
+      }
+
+
+    .content {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height:700px;
+        flex-wrap: wrap;
+        padding: 5px 5px;
+        
+    }
+
+    .ingredients {
+        
+        width: 50%;
+        flex: 1;
+        
+    }
+
+    .preparation {
+        display: flex;
+        flex-direction: column;
+        flex: 1.5;
+        
+    }
+
+
+
+    .feature-container {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .feature-1,
+    .feature-2,
+    .feature-3 {
+        width: 33.3%;
+    }
+}
+   
+
+  
+
